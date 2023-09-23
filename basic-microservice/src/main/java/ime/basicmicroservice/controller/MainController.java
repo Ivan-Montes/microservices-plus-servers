@@ -12,7 +12,7 @@ import ime.basicmicroservice.client.MediumClient;
 
 
 @RestController
-@RequestMapping("api/main")
+@RequestMapping("api/main-basic")
 @RefreshScope
 public class MainController {
 
@@ -30,6 +30,7 @@ public class MainController {
 	
 	@GetMapping("/medium")
 	public ResponseEntity<String> fnBye(){
-		return ResponseEntity.ok(mediumClient.sayBye());
+		return mediumClient.sayBye();
 	}
+	
 }
