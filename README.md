@@ -1,2 +1,9 @@
 # microservices-plus-servers
-:construction: Test project with microservices + eureka + config server + message broker + feign
+
+Test project with microservices + eureka + config server + message broker + feign
+
+
+
+##### About Message-Broker RabbitMQ
+
+You could use whatever [these methods](https://www.rabbitmq.com/download.html) for adding your own server
